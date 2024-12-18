@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "DummyLearn",
+    "slug": "client",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#E5ECF9"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.prodigy1l.client"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#E5ECF9"
+      },
+      "package": "com.prodigy1l.client",
+      "permissions": [],
+      "versionCode": 1
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "tsconfigPaths": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "88cc99a3-72ab-471c-943b-9917d528c9a7"
+      }
+    }
+  }
+}
